@@ -7,7 +7,7 @@ authors = []
 license = { text = "MIT" }
 requires-python = ">=3.9"
 dependencies = [
-    "langchain-core<1.0.0,>=0.3.70",
+    "langchain-core>=0.3.70,<2.0.0",
     "langchain-openai<1.0.0,>=0.3.28",
 ]
 name = "langchain-deepseek"
