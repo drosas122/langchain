@@ -114,7 +114,7 @@ jobs:
           rm -rf ../langchain-api-docs-html/_build/
 
       # https://github.com/marketplace/actions/add-commit
-      - uses: EndBug/add-and-commit@v9
+      - uses: EndBug/add-and-commit@v10
         with:
           cwd: langchain-api-docs-html
           message: 'Update API docs build'
